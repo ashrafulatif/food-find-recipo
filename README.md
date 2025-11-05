@@ -60,16 +60,6 @@ This project is a Food Recipe App. It lets you browse recipes, add them to your 
 
 ---
 
-## Bug Fixes
-
-- **Search Option:** Fixed issues with the search feature to ensure accurate and responsive results.
-- **API Method (getRecipes):** Corrected improper mixing of `async/await` with `.then()` in the API fetching logic to prevent unpredictable behavior.
-- **Image Setting in `next.config.js`:** Updated deprecated image settings to align with the latest Next.js recommendations.
-- **Product Recipe Details:** Fixed display issues so the correct recipe details are shown every time.
-- **Product Details Dialog Box:** Fixed the close button so the dialog for product details can be dismissed reliably.
-
----
-
 ## Time Spent (Approximate)
 
 - **Total:** 9 hours
