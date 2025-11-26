@@ -68,7 +68,7 @@ const RecipesListAll = () => {
         {/* Search form */}
         <div className="flex justify-center mb-6">
           <form onSubmit={handleSearch} className="w-full max-w-lg">
-            <div className="relative flex p-1 rounded-full bg-white border border-yellow-200 shadow-md md:p-2">
+            <div className="relative flex p-1 rounded-full bg-white border border-orange-300/80 shadow-md md:p-2">
               <input
                 placeholder="Search recipes..."
                 className="w-full p-4 rounded-full outline-none bg-transparent text-gray-700"
@@ -79,14 +79,14 @@ const RecipesListAll = () => {
               <button
                 type="submit"
                 title="Search recipes"
-                className="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400 md:px-12"
+                className="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-orange-600 to-orange-300 hover:to-red-300 active:from-orange-400 focus:from-red-400 md:px-12"
               >
-                <span className="hidden text-yellow-900 font-semibold md:block">
+                <span className="hidden text-orange-100 font-semibold md:block">
                   Search
                 </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 mx-auto text-yellow-900 md:hidden"
+                  className="w-5 mx-auto text-orange-900 md:hidden"
                   fill="currentColor"
                   viewBox="0 0 16 16"
                 >
@@ -102,7 +102,7 @@ const RecipesListAll = () => {
             <IconButton
               icon="Plus"
               label="Add Recipe"
-              className="py-4 px-4 bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300 text-yellow-900 font-semibold text-sm"
+              className="py-4 px-4 bg-orange-500 hover:bg-orange-400 text-orange-100 font-semibold text-sm"
             />
           </Link>
         </div>

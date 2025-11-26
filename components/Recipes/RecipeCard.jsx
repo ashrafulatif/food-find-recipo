@@ -89,7 +89,7 @@ const RecipeCard = ({ recipe, handleDetailsOpen }) => {
             e.stopPropagation();
             addToCart(recipe);
           }}
-          className="flex-1 bg-yellow-300 text-yellow-900 hover:bg-yellow-400"
+          className="flex-1 bg-orange-500 text-orange-100 hover:bg-orange-400"
           variant="solid"
         />
       </div>

@@ -9,10 +9,10 @@ const Wishlist = () => {
 
   if (wishlist.length === 0) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-[50vh] p-8 text-center">
+      <div className="flex flex-col items-center justify-center min-h-screen p-8 text-center">
         <IconButton
           icon="Heart"
-          className="text-gray-300 mb-4"
+          className="text-orange-500 mb-4"
           iconProps={{ size: 48, strokeWidth: 1 }}
         />
         <h3 className="text-lg text-gray-500">Your wishlist is empty</h3>

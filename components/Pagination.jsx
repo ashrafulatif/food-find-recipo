@@ -16,7 +16,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         className={`px-4 py-2 rounded-full ${
           currentPage === 1
             ? "bg-gray-200 text-gray-400 cursor-not-allowed"
-            : "bg-yellow-300 text-yellow-900 hover:bg-yellow-400"
+            : "bg-orange-500 text-orange-100 hover:bg-orange-400"
         }`}
       >
         Previous
@@ -30,8 +30,8 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
             onClick={() => handlePageChange(page)}
             className={`px-4 py-2 rounded-full ${
               page === currentPage
-                ? "bg-yellow-500 text-white"
-                : "bg-gray-100 text-gray-600 hover:bg-yellow-300 hover:text-yellow-900"
+                ? "bg-orange-500 text-white"
+                : "bg-gray-100 text-gray-600 hover:bg-orange-300 hover:text-orange-900"
             }`}
           >
             {page}
@@ -46,7 +46,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         className={`px-4 py-2 rounded-full ${
           currentPage === totalPages
             ? "bg-gray-200 text-gray-400 cursor-not-allowed"
-            : "bg-yellow-300 text-yellow-900 hover:bg-yellow-400"
+            : "bg-orange-500 text-orange-100 hover:bg-orange-400"
         }`}
       >
         Next

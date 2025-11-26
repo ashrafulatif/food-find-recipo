@@ -91,7 +91,7 @@ const Navbar = () => {
                     <ShoppingCart size={16} />
                     <span>Cart</span>
                     {cart.length > 0 && (
-                      <span className="absolute -top-2 -right-2 bg-yellow-300 text-yellow-900 text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                      <span className="absolute -top-2 -right-2 bg-orange-500 text-orange-100 text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
                         {cart.length}
                       </span>
                     )}
@@ -100,20 +100,20 @@ const Navbar = () => {
               </ul>
             </div>
 
-            <div className="w-full min-w-max space-y-2 border-yellow-200 lg:space-y-0 sm:w-max lg:border-l">
+            <div className="w-full min-w-max space-y-2 border-orange-200 lg:space-y-0 sm:w-max lg:border-l">
               {isAuthenticated ? (
                 <>
                   <div className="flex items-center space-x-4">
-                    <span className="text-yellow-800 font-semibold px-2">
+                    <span className="text-orange-500 font-semibold px-2">
                       Welcome, {user?.name}
                     </span>
                     <button
                       onClick={handleLogout}
                       type="button"
                       title="Logout"
-                      className="w-full py-3 px-4 text-center rounded-full transition bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300 sm:w-max"
+                      className="w-full py-3 px-4 text-center rounded-full transition bg-orange-500 hover:bg-orange-400 active:bg-orange-600 focus:bg-orange-600 sm:w-max"
                     >
-                      <span className="block text-yellow-900 font-semibold text-sm">
+                      <span className="block text-orange-100 font-semibold text-sm">
                         Logout
                       </span>
                     </button>
@@ -125,9 +125,9 @@ const Navbar = () => {
                     <button
                       type="button"
                       title="Sign up"
-                      className="w-full py-3 px-6 text-center rounded-full transition active:bg-yellow-200 focus:bg-yellow-100 sm:w-max"
+                      className="w-full py-3 px-6 text-center rounded-full transition active:bg-orange-200 focus:bg-orange-100 sm:w-max"
                     >
-                      <span className="block text-yellow-800 font-semibold text-sm">
+                      <span className="block text-orange-500 font-semibold text-sm">
                         Sign up
                       </span>
                     </button>
@@ -136,9 +136,9 @@ const Navbar = () => {
                     <button
                       type="button"
                       title="Login"
-                      className="w-full py-3 px-6 text-center rounded-full transition bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300 sm:w-max"
+                      className="w-full py-3 px-6 text-center rounded-full transition bg-orange-500 hover:bg-orange-400 active:bg-orange-400 focus:bg-orange-300 sm:w-max"
                     >
-                      <span className="block text-yellow-900 font-semibold text-sm">
+                      <span className="block text-orange-100 font-semibold text-sm">
                         Login
                       </span>
                     </button>

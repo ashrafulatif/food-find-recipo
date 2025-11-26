@@ -52,9 +52,9 @@ const LoginForm = () => {
                 id="email"
                 {...register("email")}
                 className={`w-full p-4 rounded-lg border ${
-                  errors.email ? "border-red-500" : "border-yellow-200"
-                } bg-transparent outline-none focus:ring-2 ${
-                  errors.email ? "focus:ring-red-500" : "focus:ring-yellow-300"
+                  errors.email ? "border-red-500" : "border-orange-200"
+                } bg-transparent outline-none focus:ring-1 ${
+                  errors.email ? "focus:ring-red-500" : "focus:ring-orange-300"
                 }`}
                 placeholder="Enter your email"
               />
@@ -76,11 +76,11 @@ const LoginForm = () => {
                 id="password"
                 {...register("password")}
                 className={`w-full p-4 rounded-lg border ${
-                  errors.password ? "border-red-500" : "border-yellow-200"
-                } bg-transparent outline-none focus:ring-2 ${
+                  errors.password ? "border-red-500" : "border-orange-200"
+                } bg-transparent outline-none focus:ring-1 ${
                   errors.password
                     ? "focus:ring-red-500"
-                    : "focus:ring-yellow-300"
+                    : "focus:ring-orange-300"
                 }`}
                 placeholder="Enter your password"
               />
@@ -92,14 +92,14 @@ const LoginForm = () => {
             </div>
             <button
               type="submit"
-              className="w-full py-3 px-6 rounded-full text-center transition bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300 text-yellow-900 font-semibold"
+                className="w-full py-3 px-6 rounded-full text-center transition bg-orange-500 hover:bg-orange-400 active:bg-orange-600 focus:bg-orange-600 text-orange-100 font-semibold"
             >
               Login
             </button>
           </form>
           <p className="text-center text-sm text-gray-500 mt-4">
             Don&apos;t have an account?{" "}
-            <a href="/signup" className="text-yellow-700 hover:underline">
+            <a href="/signup" className="text-yellow-900 hover:underline">
               Sign up
             </a>
           </p>

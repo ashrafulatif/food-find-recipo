@@ -1,11 +1,15 @@
+import RecipeCategory from "@/components/RecipeCategory/RecipeCategory";
 import Hero from "../components/Hero/Hero";
 import RecipesList from "../components/Recipes/RecipesList";
+import Testimonial from "@/components/testimonial/Testimonial";
 
 export default function Home() {
   return (
     <div>
       <Hero />
+      <RecipeCategory />
       <RecipesList />
+      <Testimonial />
     </div>
   );
 }

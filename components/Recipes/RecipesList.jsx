@@ -60,11 +60,11 @@ const RecipesList = () => {
   return (
     <div className="bg-gray-50 py-10">
       <div className="container mx-auto px-4">
-        <h1 className="text-2xl font-bold text-yellow-900">Top Recipes</h1>
+        <h1 className="text-4xl font-bold text-yellow-900">Top Recipes</h1>
 
         {/* Search form */}
         <form onSubmit={handleSearch} className="w-full mt-6">
-          <div className="relative flex p-1 rounded-full bg-white border border-yellow-200 shadow-md md:p-2">
+          <div className="relative flex p-1 rounded-full bg-white border border-orange-300/80 shadow-md md:p-2">
             <input
               placeholder="Search your favorite food"
               className="w-full p-4 rounded-full outline-none bg-transparent"
@@ -75,14 +75,14 @@ const RecipesList = () => {
             <button
               type="submit"
               title="Search recipes"
-              className="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-yellow-200 to-yellow-300 hover:to-red-300 active:from-yellow-400 focus:from-red-400 md:px-12"
+              className="ml-auto py-3 px-6 rounded-full text-center transition bg-gradient-to-b from-orange-600 to-orange-300 hover:to-red-300 active:from-orange-400 focus:from-red-400 md:px-12"
             >
-              <span className="hidden text-yellow-900 font-semibold md:block">
+              <span className="hidden text-orange-100 font-semibold md:block">
                 Search
               </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-5 mx-auto text-yellow-900 md:hidden"
+                className="w-5 mx-auto text-orange-100 md:hidden"
                 fill="currentColor"
                 viewBox="0 0 16 16"
               >

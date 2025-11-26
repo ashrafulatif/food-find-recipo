@@ -11,7 +11,7 @@ const EmptyCartMessage = () => {
         Add some delicious recipes to get started on your culinary adventure!
       </p>
       <Link href="/all-recipes">
-        <button className="px-8 py-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-semibold rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+        <button className="px-8 py-3 bg-orange-500 hover:bg-orange-400 text-orange-100 font-semibold rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
           Explore Recipes
         </button>
       </Link>

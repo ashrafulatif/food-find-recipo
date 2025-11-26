@@ -34,7 +34,7 @@ const SummaryPanel = () => {
           icon="BrushCleaning"
           label="Clear Cart"
         />
-        <button className="w-full px-6 py-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-bold rounded-full shadow-md transform hover:scale-[1.02] transition-all duration-200">
+        <button className="w-full px-6 py-3 bg-orange-500 hover:bg-orange-400 text-orange-100 font-bold rounded-full shadow-md transform hover:scale-[1.02] transition-all duration-200">
           Proceed to Checkout
         </button>
       </div>
